@@ -75,6 +75,7 @@
       grid-template-columns: repeat(3, 1fr);
       padding: 150px;
       background-color: #FAFBFD;
+      height: 515px;
 }
 
 .grid-item {
@@ -102,7 +103,6 @@
 }
 
 .elementor-image-box-description {
-    color: var(--e-global-color-text);
-    font-family: var(--e-global-typography-text-font-family), Sans-serif;
-    font-weight: var(--e-global-typography-text-font-weight);
+    color: #666666;
+    font-family: Sans-serif;
 }
