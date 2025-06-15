@@ -75,7 +75,7 @@
       grid-template-columns: repeat(3, 1fr);
       padding: 150px;
       background-color: #FAFBFD;
-      height: 515px;
+      height: 450px;
 }
 
 .grid-item {
@@ -95,7 +95,7 @@
     color: #140748;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
@@ -106,3 +106,28 @@
     color: #666666;
     font-family: Sans-serif;
 }
+
+  .swiper-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      gap: 2rem;
+      
+      height :310px;
+      width: 1300px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -165px;
+    }
+
+    .swiper-container::-webkit-scrollbar {
+      display: none; /* hide scrollbar */
+    }
+
+    .swiper-slide {
+      flex: 0 0 23%; /* or 300px fixed width */
+      height: 300px;
+      background: #4fc3f7;
+
+    }
